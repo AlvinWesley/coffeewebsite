@@ -1,0 +1,390 @@
+*{
+    padding:0;
+    margin:0;
+    color:white;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("wp6453105-geometric-gradient-wallpapers.jpg");
+    background-size:cover;
+}
+.bodyskeleton{
+    padding:5px;
+    align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.bodyskeleton .bodycenter{
+    width:99%;
+    min-width: 14cm;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(165, 42, 42, 0.233);
+    /* background-image: url("/coffee pictures/65837.jpg"); */
+    background-size: cover;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.bodyskeleton .bodycenter:hover{
+    transition:1s ease-in-out;
+    width:100%;
+}
+
+.bodyskeleton .bodycenter .centerupper{
+  display: flex;
+flex-wrap: wrap;
+    border-radius: 10px;
+    margin:10px;
+    padding:10px;
+}
+
+.bodyskeleton .bodycenter .centerlower{
+
+    border-radius: 10px;
+    margin:10px;
+}
+.bodyskeleton .bodycenter .centerlower .contentlower{
+    background-color: rgba(19, 2, 2, 0.384);
+    border-radius: 10px;
+    margin:10px;
+    padding: 10px;
+}
+.bodyskeleton .bodycenter .centerlower .contentlower .row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 10px;
+    margin:10px;
+}
+
+.bodyskeleton .bodycenter .centerlower .contentlower .row .lowermenu1{
+    background-image: url("background.jpg");
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 40px; 
+    border-top-left-radius: 0;
+    margin:10px;
+    width:50%;
+    max-width: 10cm;
+    overflow:hidden;
+    animation: couroselespresso 18s linear infinite;
+    animation-delay: 4s;
+}
+.menuoption{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding:3px;
+    width:100%;
+    cursor: pointer;
+
+}
+.menuoption .description{
+    color:white;
+    width:50%;
+    background-color: rgba(26, 24, 24, 0.747);
+    display :flex;
+    flex-wrap: wrap;
+border-radius: 10px;
+margin:3px;
+padding:15px;
+}
+.menuoption .buttons{
+background-color: #10111086;
+    width:30%;
+    display:block;
+border-radius: 10px;
+align-items: center;
+padding:5px;
+height:4cm;
+overflow: hidden;
+margin:3px;
+}
+.menuoption .buttons:hover{
+    transition:0.7s ease;
+        height: 5.5cm;
+        cursor: pointer;
+        border-top-left-radius: 0;
+        border-top:9px solid #fff;
+
+    }
+
+.menuoption .buttons button{
+    border:1px #fff solid;
+    margin:4px;
+
+    background-color:transparent;
+    color:white;
+    font-weight: 500;
+    font-size:15px;
+    padding:4px;
+    border-radius: 4px;
+    width:100%;
+    cursor: pointer;
+
+}
+.menuoption .buttons button:hover{
+    transition:0.5s ease;
+        background-color: rgba(230, 223, 213, 0.897);
+        color:#180617;
+        font-weight: 600;
+        font-size:large;
+        border-top-left-radius: 0;
+        border-left:9px solid rgba(126, 77, 12, 0.61);
+    
+        /* border-bottom:1px solid #f22;
+        border-right:1px solid #f22; */
+
+
+    }
+    @keyframes couroselespresso {
+        0%{
+            background-image: url("ESP1.jpg");
+            background-size:cover;
+
+        }
+        20%{
+            background-image: url("ESP2.jpg");
+            background-size:cover;
+
+        }
+        40%{
+            background-image: url("ESP3.jpg");
+            background-size:cover;
+        }
+        60%{
+            background-image: url("ESP4.jpg");
+            background-size:cover;
+        }
+        80%{
+            background-image: url("ESP5.jpg");
+       background-size:cover;
+        }
+        100% ,0%{
+            background-image: url("ESP1.jpg");
+            background-size:cover;
+        }
+
+    }
+.bodyskeleton .bodycenter .centerlower .contentlower .row .lowermenu2{
+    background-image: url("coffee-1973549_960_720.jpg");
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 40px; 
+    border-top-left-radius: 0;
+    margin:10px;
+    width:50%;
+    max-width: 10cm;
+    overflow:hidden;
+    animation: couroselcappuccinno 17.5s linear infinite;
+    animation-delay: 4s;
+
+}
+@keyframes couroselcappuccinno {
+    0%{
+        background-image: url("CAP1.jpg");
+        background-size:cover;
+    }
+    20%{
+        background-image: url("CAP2.jpg");
+        background-size:cover;
+    }
+    40%{
+        background-image: url("CAP3.jpg");
+        background-size:cover;
+    }
+    60%{
+        background-image: url("CAP4.jpg");
+        background-size:cover;
+    }
+    80%{
+        background-image: url("CAP5.jpg");
+   background-size:cover;
+    }
+    100% ,0%{
+        background-image: url("CAP1.jpg");
+        background-size:cover;
+    }
+
+}
+.bodyskeleton .bodycenter .centerlower .contentlower .row .lowermenu3{
+    background-image: url("wp1923713-coffee-brown-wallpapers.jpg");
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 40px; 
+    border-top-left-radius: 0;
+    margin:10px;
+    width:50%;
+    max-width: 10cm;
+    overflow:hidden;
+
+    animation: couroselmocha 17s linear infinite;
+    animation-delay: 4s;
+}
+@keyframes couroselmocha {
+    0%{
+        background-image: url("moc1.png");
+        background-size:cover;
+    }
+    20%{
+        background-image: url("moc2.jpg");
+        background-size:cover;
+    }
+    40%{
+        background-image: url("moc3.jpg");
+        background-size:cover;
+    }
+    60%{
+        background-image: url("moc4.jpg");
+        background-size:cover;
+    }
+    80%{
+        background-image: url("moc5.jpg");
+   background-size:cover;
+    }
+    100% ,0%{
+        background-image: url("moc1.jpg");
+        background-size:cover;
+    }
+
+}
+.bodyskeleton .bodycenter .centerlower .contentlower .row .lowermenu4{
+    background-image: url("wp1923713-coffee-brown-wallpapers.jpg");
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 40px; 
+    border-top-left-radius: 0;
+    margin:10px; 
+    width:50%;
+    max-width: 10cm;
+    overflow:hidden;
+    animation-delay: 4s;
+    animation: couroselcortado 17s linear infinite;
+}
+@keyframes couroselcortado {
+    0%{
+        background-image: url("COR1.jpg");
+        background-size:cover;
+    }
+    20%{
+        background-image: url("COR2.jpg");
+        background-size:cover;
+    }
+    40%{
+        background-image: url("COR3.jpg");
+        background-size:cover;
+    }
+    60%{
+        background-image: url("COR4.jpg");
+        background-size:cover;
+    }
+    80%{
+        background-image: url("COR5.jpg");
+   background-size:cover;
+    }
+    100% ,0%{
+        background-image: url("COR1.jpg");
+        background-size:cover;
+    }
+
+}
+.bodyskeleton .bodycenter .centerlower .contentlower .row .lowermenu5{
+    background-image: url("wp1923713-coffee-brown-wallpapers.jpg");
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 40px; 
+    border-top-left-radius: 0;
+    margin:10px;
+    width:50%;
+    max-width: 10cm;
+    overflow:hidden;
+    animation: courosellatte 17s linear infinite;
+}
+@keyframes courosellatte {
+    0%{
+        background-image: url("lat1.png");
+        background-size:cover;
+    }
+    20%{
+        background-image: url("lat2.jpg");
+        background-size:cover;
+    }
+    40%{
+        background-image: url("lat3.jpg");
+        background-size:cover;
+    }
+    60%{
+        background-image: url("lat4.jpg");
+        background-size:cover;
+    }
+    80%{
+        background-image: url("lat5.jpg");
+   background-size:cover;
+    }
+    100% ,0%{
+        background-image: url("lat1.png");
+        background-size:cover;
+    }
+
+}
+.bodyskeleton .bodycenter .centerlower .contentlower .row .lowermenu6{
+    background-image: url("wp1923713-coffee-brown-wallpapers.jpg");
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+     border-radius: 40px; 
+    border-top-left-radius: 0;
+    margin:10px;
+    width:50%;
+    max-width: 10cm;
+    overflow:hidden;
+    animation: couroselamericano 15s  infinite;
+}
+.footerskeleton{
+    height:5cm;
+}
+@keyframes couroselamericano {
+    0%{
+        background-image: url("wp6511538-caffe-americano-wallpapers.jpg");
+        background-size:cover;
+    }
+    20%{
+        background-image: url("wp9571895-caffe-americano-wallpapers.jpg");
+        background-size:cover;
+    }
+    40%{
+        background-image: url("wp9571901-caffe-americano-wallpapers.jpg");
+        background-size:cover;
+    }
+    60%{
+        background-image: url("wp9571916-caffe-americano-wallpapers.jpg");
+        background-size:cover;
+    }
+    80%{
+        background-image: url("wp9571931-caffe-americano-wallpapers.png");
+   background-size:cover;
+    }
+    100% ,0%{
+        background-image: url("wp6511538-caffe-americano-wallpapers.jpg");
+        background-size:cover;
+    }
+
+}

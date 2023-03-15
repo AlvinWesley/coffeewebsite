@@ -1,0 +1,311 @@
+.bodyskeleton .bodycenter .centerupper h1{
+    font-size: 100px;
+    color:transparent;
+    -webkit-text-stroke: 1px rgb(231, 10, 10);
+    animation-name: textanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes textanimation{
+    0%{
+        -webkit-text-stroke: 1px rgb(10, 231, 39);
+        text-shadow: 0 0 5px #f333;
+    }
+    50%{
+        -webkit-text-stroke: 1px rgb(10, 231, 231);
+    }
+    75%{
+        -webkit-text-stroke: 1px rgb(231, 216, 10);
+    }
+    0%,100%{
+        -webkit-text-stroke: 1px rgb(243, 235, 235);
+    }
+    
+}
+.bodyskeleton .bodycenter:hover .centerupper h1{
+    transition: 1s ease-in-out;
+    font-size: 80px;
+}
+.section{
+margin:0;
+padding:0;
+height:100vh;
+}
+.backgroundfooter{
+    background-color: rgba(61, 16, 5, 0.651);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    border-radius: 20px;
+    padding:5px;
+    margin:0;  
+}
+.backgroundfooter .footersectiona{
+    
+    padding:5px;
+    width:30%;
+    margin:5px;
+}
+.backgroundfooter .footersectiona ul{
+
+}
+.backgroundfooter .footersectionb{
+    
+    padding:5px;
+    width:30%;
+    margin:5px;
+}
+.backgroundfooter .footersectionc{
+    padding:5px;
+    width: 30%;
+    margin:5px;
+}
+.lowermenu1,
+.lowermenu2,
+.lowermenu3,
+.lowermenu4,
+.lowermenu5,
+.lowermenu6{
+    transition:0.2s ease-in-out;
+}
+.lowermenu1:hover{
+    transform: scale(1.04);
+}
+.lowermenu2:hover{
+    transform: scale(1.04);
+}
+.lowermenu3:hover{
+    transform: scale(1.04);
+}
+.lowermenu4:hover{
+    transform: scale(1.04);
+}
+.lowermenu5:hover{
+    transform: scale(1.04);
+}
+.lowermenu6:hover{
+    transform: scale(1.04);
+}
+.headerskeleton div{
+    padding:4px;
+}
+.headerskeleton{
+    background-color: #200a01f3;
+    padding-bottom:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.headerabove{
+    display: flex;
+    height:1.5cm;
+    background-color: #200a01c2;
+    align-items: right;
+    
+    justify-content: space-between;
+}
+.headerskeleton .headersocialmedia{
+    border-bottom:1px #fff solid;
+   
+    display: flex;
+    justify-content: flex-start;
+padding: 5px;
+margin:3px;
+width:40%;
+overflow:hidden;
+
+
+}
+hr{
+    border:3px solid rgba(150, 62, 47, 0.658);
+}
+.headerskeleton .headersocialmedia .pages{
+    height:40px;
+    width:40px;
+    margin:2px;
+    padding:2px;
+    border-radius: 10px;
+    transform:rotate(45deg);
+   
+    
+
+}
+.headerskeleton .headersocialmedia .pages a img{
+    padding: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width:40px; 
+   
+    /*box-shadow: 0 0 1px 1px #fe6022,0 0 2px 2px #fe6022c0,0 0 2px 2px #fe602285;*/
+}
+#fb{
+    background-color: rgba(243, 244, 248, 0.952);
+    transform: translateY(15px);
+}
+#ig{
+    background-color: rgba(239, 241, 239, 0.973);
+    transform: translateY(15px);
+}
+#wa{
+    background-color: rgba(246, 253, 245, 0.952);
+    transform: translateY(15px);
+}
+#fb :hover{
+    transition: 0.4s ease-in-out; 
+    background-color: rgba(0, 0, 255, 0.993);
+    transform:translateY(-15px);
+}
+#ig :hover{
+    transition: 0.2s ease-in-out; 
+    background-color: rgb(247, 105, 17);
+    transform:translateY(-15px);
+}
+#wa :hover{
+   transition: 0.2s ease-in-out; 
+    border-radius:100%;
+    background-color: rgb(41, 255, 13);
+    transform:translateY(-15px);
+}
+.menu{
+    border:1px #fff solid;
+    border-radius: 10px;
+}
+.headerabove .sitename{
+    color:#fff;
+    font-family:Broadway;
+    font-size:24px;
+    text-shadow: 0 0 1px 1px #fe6022,0 0 2px 2px #fe6022c0,0 0 2px 2px #fe602285;
+}
+.headerabove .sitename p{
+    color:transparent;
+    -webkit-text-stroke: 1px rgb(231, 10, 10);
+}
+.headerabove .sitename:hover p{
+    
+    transition:0.5s ease-in-out;
+    text-shadow:0 0 3px #fff0,0 0 5px #22d5ec,0 0 8px orangered;
+   
+}
+.headerabove .menu ul li{
+    display:inline;
+    padding:10px;
+   
+}
+.headerabove .menu ul li a{
+    color:white;
+    font-weight: 1000;
+    font-size:20px;
+    text-decoration: none;
+    position:relative;
+   
+}
+.headerabove .menu ul li a::after{
+    content: '';
+    width:0;
+    height:3px;
+    position:absolute;
+    bottom:-5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:#fff;
+    transition:width 0.3s;
+
+}
+.headerabove .menu ul li a:hover::after{
+    width:50%;
+}
+.headerbelow{
+    display:flex;
+    padding:3px;
+    border-radius: 10px;
+    margin:4px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    margin:4px;
+    width:20%; 
+    border-radius: 10px;
+    background-color: #ee3b0e79;
+    padding:5px;
+    color:white;
+    transition: 0.5s ease-in-out;
+   
+}
+.content p a{
+text-decoration: none;
+color:white;
+}
+.content::after{
+    content: '';
+    width:0;
+    height:3px;
+    position:absolute;
+    bottom:-1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:#fff;
+    transition:width 0.3s;
+}
+.content:hover::after{
+    width:70%;
+}
+.content:hover{
+    transition:0.5s ease-in-out;
+    color:#2b0f04;
+    background-color: #2b2502dc;
+    transform:scale(1.05);
+    font-size:16px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin:15px;
+    overflow: hidden;
+  }
+  .card .cardpicbg{
+    background-image: url("wp10436901-brown-gradient-wallpapers.jpg");
+    padding:10px;
+  }
+  .cardpic{
+    border:5px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 6cm;
+    height: 6cm;
+
+  }
+  .card .cardpicbg .cardpic img {
+   
+    width: 6cm;
+    height: 6cm;
+    
+  }
+  
+  .card .card-body {
+    padding: 20px;
+    background-color: #2b0f047c;
+    height:100%;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .aboutbodycenter{
+    display:flex;
+    padding:10px;
+    flex-wrap: wrap;
+  }

@@ -1,0 +1,326 @@
+*{
+  scroll-behavior: smooth;
+}
+.outerbody{
+    padding:1%;
+    margin:1%;
+ border-radius: 30px;
+    transition: 0.8s ease;
+}
+.outerbody:hover{
+background-color: rgba(221, 221, 221, 0.555);
+}
+.centerupper{
+  display: flex;
+flex-wrap: nowrap;
+    border-radius: 10px;
+    margin:1%;
+    padding:1%;
+}
+.centerupper h1{
+  font-size: 90px;
+  color:transparent;
+  -webkit-text-stroke: 1px rgb(231, 10, 10);
+  animation-name: textanimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes textanimation{
+  0%{
+      -webkit-text-stroke: 1px rgb(10, 231, 39);
+      text-shadow: 0 0 5px #f333;
+  }
+  50%{
+      -webkit-text-stroke: 1px rgb(10, 231, 231);
+  }
+  75%{
+      -webkit-text-stroke: 1px rgb(231, 216, 10);
+  }
+  0%,100%{
+      -webkit-text-stroke: 1px rgb(243, 235, 235);
+  }
+  
+}
+.bodyskeleton .bodycenter:hover .centerupper h1{
+  transition: 1s ease-in-out;
+  font-size: 80px;
+}
+.homebodycenter{
+    padding: 1%;
+    margin: 1%x;
+   
+}
+.homebodycentercontent{
+    padding: 1%;
+    margin: 1%;
+    background-color: #92161656;
+    display: flex;
+  flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.homebodymenu{
+    padding: 20px;
+    margin: 1%;
+    width:30%;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    background-color: #6b535362;
+    border: 1px solid #ddd;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.homebodymenu .digin button{
+  padding:20px;
+  margin:10px;
+  background-color: transparent;
+  border:1px solid rgba(29, 3, 3, 0.795);
+  border-radius: 10px;
+}
+.homebodymenu .digin button a{
+  text-decoration: none;
+  color:white;
+}
+.homebodymenu .digin button:hover a{ color:black;}
+.homebodymenu .digin button:hover{
+  transition:1s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.39);
+  border:1px solid rgba(250, 250, 248, 0.979);
+  transform: scale(1.04);
+  color:black;
+  font-size: 13px;
+  font-weight: bolder;
+  cursor: pointer;
+  
+}
+.homebodymenu:hover{
+  
+  border-top: 9px solid #fff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.homebodymenu h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.homebodymenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.homebodymenu li {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.homebodymenu li strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.homebodymenu li:last-child {
+  margin-bottom: 0;
+}
+
+.picturedisplayskeleton{
+    padding: 0px;
+    margin: 2%;
+    background-color: #ebd6d656;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+    width:60%;
+    min-width:6cm;
+}
+.homebodypicturedisplay{
+    padding: 0;
+    margin: 0;
+  
+}
+.slider {
+    width: 100%;
+    height: 510px;
+    position: relative;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  
+  .slider img:first-child {
+    z-index: 1;
+  }
+  
+  .slider img:nth-child(2) {
+    z-index: 0;
+  }
+  .navigation-button {
+    text-align: center;
+    position: relative;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 1cm;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+    background-color: rgba(187, 187, 187, 0.295);
+    padding:10px;
+  }
+  
+  .next {
+    padding:10px;
+    right: 0;
+    background-color: rgba(187, 187, 187, 0.295);
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #f08205a2;
+  /* transform:scale(1.02); */
+  
+  }
+    .slider img {
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+       
+      }
+      
+      .slider img.active {
+        opacity: 1;
+      }
+     .myproducts{
+      display:flex;
+      padding:20px;
+      margin: 10PX;
+background-color: rgba(187, 187, 187, 0.507);
+width:98%;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+     }
+     #c1 {
+      background-image: url("wp6511538-caffe-americano-wallpapers.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+
+      border:1px solid #f334;
+      margin:10px;
+      height:4cm;
+      width:5cm;
+     }
+     #c2 {
+      background-image: url("lat1.png");
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:1px solid #f334;
+      margin:10px;
+      height:4cm;
+      width:5cm;
+     }
+     #c3 {
+      background-image: url("esp3.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:1px solid #f334;
+      margin:10px;
+      height:4cm;
+      width:5cm;
+     }
+     #c4 {
+      background-image: url("CAP1.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:1px solid #f334;
+      margin:10px;
+      height:4cm;
+      width:5cm;
+     }
+     #c5 {
+      background-image: url("ESP1.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:1px solid #f334;
+      margin:10px;
+      height:4cm;
+      width:5cm;
+     }
+     #c6 {
+      background-image: url("wp1923713-coffee-brown-wallpapers.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      border:1px solid #f334;
+      margin:10px;
+      height:4cm;
+      width:5cm;
+     }
+     .contents{
+      overflow: hidden;
+     }
+     .contents:hover{
+      transition: 0.5s ease-in-out;
+      transform: scale(1.05);
+     }
+     .contents section {
+      font-size: 20px;
+      
+      background-color: #080606a8;
+      border-top:3px solid #fff;
+      padding:0;
+      margin:0;
+      height:3.9cm;
+      transform: translateY(120px);
+      transition:0.4s ease-in-out;
+      
+     }
+     .contents a {
+      text-decoration: none;
+      color:#fff;
+     }
+     .contents   section:hover{
+      transform:translateY(0);
+     }
+     .contents h1{
+      color:gold;
+     }
+     .contents button{
+    border:none;
+      background-color: #ece7e763;
+      color:black;
+      padding:5px;
+      margin:5px;
+      cursor:pointer;
+      border-radius: 3px;
+     }
